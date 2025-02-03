@@ -1,0 +1,69 @@
+2025-02-03 16:57:10,818 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-02-03 16:57:10,857 INFO o.a.j.JMeter: Loading user properties from: D:\Software Teknik\apache-jmeter-5.5\apache-jmeter-5.5\bin\user.properties
+2025-02-03 16:57:10,858 INFO o.a.j.JMeter: Loading system properties from: D:\Software Teknik\apache-jmeter-5.5\apache-jmeter-5.5\bin\system.properties
+2025-02-03 16:57:10,878 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2025-02-03 16:57:10,878 INFO o.a.j.JMeter: Version 5.5
+2025-02-03 16:57:10,878 INFO o.a.j.JMeter: java.version=11.0.16
+2025-02-03 16:57:10,879 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-02-03 16:57:10,879 INFO o.a.j.JMeter: os.name=Windows 11
+2025-02-03 16:57:10,879 INFO o.a.j.JMeter: os.arch=amd64
+2025-02-03 16:57:10,879 INFO o.a.j.JMeter: os.version=10.0
+2025-02-03 16:57:10,879 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-02-03 16:57:10,880 INFO o.a.j.JMeter: java.awt.headless=true
+2025-02-03 16:57:10,880 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-02-03 16:57:10,880 INFO o.a.j.JMeter: Available Processors =4
+2025-02-03 16:57:10,907 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-02-03 16:57:10,908 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-02-03 16:57:10,908 INFO o.a.j.JMeter: JMeterHome=D:\Software Teknik\apache-jmeter-5.5\apache-jmeter-5.5
+2025-02-03 16:57:10,908 INFO o.a.j.JMeter: user.dir  =D:\Ra\Sanbercode\Jmeter - quiz
+2025-02-03 16:57:10,909 INFO o.a.j.JMeter: PWD       =D:\Ra\Sanbercode\Jmeter - quiz
+2025-02-03 16:57:10,918 INFO o.a.j.JMeter: IP: 192.168.69.194 Name: JustR FullName: JustR
+2025-02-03 16:57:10,947 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Ra\Sanbercode\Jmeter - quiz\LoadTestReport1'
+2025-02-03 16:57:10,955 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-02-03 16:57:10,955 INFO o.a.j.r.d.ReportGenerator: Will only generate report from results file: loadTest-report.jtl
+2025-02-03 16:57:10,955 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Software Teknik\apache-jmeter-5.5\apache-jmeter-5.5\bin\reportgenerator.properties
+2025-02-03 16:57:10,959 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-02-03 16:57:10,970 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-02-03 16:57:10,977 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-02-03 16:57:10,985 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-02-03 16:57:10,986 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-02-03 16:57:10,986 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-02-03 16:57:10,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-02-03 16:57:10,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-02-03 16:57:10,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-02-03 16:57:10,989 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,995 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,996 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,996 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,996 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-02-03 16:57:10,999 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-02-03 16:57:10,999 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-02-03 16:57:10,999 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-02-03 16:57:11,000 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-02-03 16:57:11,001 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-02-03 16:57:11,001 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-02-03 16:57:11,296 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-02-03 16:57:11,329 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-02-03 16:57:11,333 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-02-03 16:57:11,339 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.core.SampleException: Could not read metadata !
+	at org.apache.jmeter.report.core.CsvSampleReader.readMetadata(CsvSampleReader.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.report.core.CsvSampleReader.<init>(CsvSampleReader.java:119) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.report.core.CsvSampleReader.<init>(CsvSampleReader.java:87) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.<init>(CsvFileSampleSource.java:111) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:209) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeter.start(JMeter.java:462) ~[ApacheJMeter_core.jar:5.5]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) ~[ApacheJMeter.jar:5.5]
+Caused by: java.lang.IllegalArgumentException: File is empty
+	at org.apache.jmeter.report.core.CsvSampleReader.readMetadata(CsvSampleReader.java:145) ~[ApacheJMeter_core.jar:5.5]
+	... 10 more

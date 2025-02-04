@@ -9,6 +9,6 @@ https://thinking-tester-contact-list.herokuapp.com/
 
 Link Record :       
 Load Test: 
-https://drive.google.com/file/d/1oAZ3NqocPd91CZD9BJZ0zannIwnmK4hk/view?usp=sharing         
+https://www.awesomescreenshot.com/video/36213164?key=775620838f728e3c43a8827eb28f0394               
 Stress Test : 
-https://drive.google.com/file/d/1a0cKINAe9Zj2Du35XuIfVgmZpb5slvQ8/view?usp=sharing
+https://www.awesomescreenshot.com/video/36213815?key=88517efc326b5dd8ad12703cc2adc6ca    

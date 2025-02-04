@@ -1,131 +1,242 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1738658763541,1549,GET AUTH,200,OK,USERS 1-1,text,true,,1266,291,4,4,https://thinking-tester-contact-list.herokuapp.com/users/login,1549,0,1098
-1738658764029,1467,GET AUTH,200,OK,USERS 1-2,text,true,,1266,291,4,4,https://thinking-tester-contact-list.herokuapp.com/users/login,1467,0,1060
-1738658765092,403,USERS_TR_ADDUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,1273,511,4,4,null,0,2,0
-1738658765093,403,ADD USER,201,Created,USERS 1-1,text,true,,1273,511,4,4,https://thinking-tester-contact-list.herokuapp.com/users,403,0,0
-1738658765500,328,USERS_TR_GETUSERPROFILE - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,865,505,5,5,null,0,1,0
-1738658765500,328,GET USER PROFILE,200,OK,USERS 1-1,text,true,,865,505,5,5,https://thinking-tester-contact-list.herokuapp.com/users/me,328,0,0
-1738658765500,329,USERS_TR_ADDUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,1269,511,5,5,null,0,1,0
-1738658765501,329,ADD USER,201,Created,USERS 1-2,text,true,,1269,511,5,5,https://thinking-tester-contact-list.herokuapp.com/users,329,0,0
-1738658764512,1479,GET AUTH,200,OK,USERS 1-3,text,true,,1262,291,5,5,https://thinking-tester-contact-list.herokuapp.com/users/login,1479,0,1150
-1738658765830,315,USERS_TR_GETUSERPROFILE - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,865,505,6,6,null,0,0,0
-1738658765830,315,GET USER PROFILE,200,OK,USERS 1-2,text,true,,865,505,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,315,0,0
-1738658765010,1143,GET AUTH,200,OK,USERS 1-4,text,true,,1263,291,6,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1143,0,832
-1738658765829,328,USERS_TR_UPDATEUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,866,740,6,6,null,0,1,0
-1738658765829,328,UPDATE USER,200,OK,USERS 1-1,text,true,,866,740,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,328,0,0
-1738658765992,410,USERS_TR_ADDUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,1269,511,6,6,null,0,1,0
-1738658765993,410,ADD USER,201,Created,USERS 1-3,text,true,,1269,511,6,6,https://thinking-tester-contact-list.herokuapp.com/users,410,0,0
-1738658766145,440,USERS_TR_UPDATEUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,866,740,7,7,null,0,1,0
-1738658766146,440,UPDATE USER,200,OK,USERS 1-2,text,true,,866,740,7,7,https://thinking-tester-contact-list.herokuapp.com/users/me,440,0,0
-1738658766158,422,USERS_TR_LOGINUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,1262,456,7,7,null,0,6,0
-1738658766164,422,LOGIN,200,OK,USERS 1-1,text,true,,1262,456,7,7,https://thinking-tester-contact-list.herokuapp.com/users/login,422,0,0
-1738658766153,432,USERS_TR_ADDUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,1269,511,7,7,null,0,1,0
-1738658766154,432,ADD USER,201,Created,USERS 1-4,text,true,,1269,511,7,7,https://thinking-tester-contact-list.herokuapp.com/users,432,0,0
-1738658766403,293,USERS_TR_GETUSERPROFILE - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,861,505,7,7,null,0,2,0
-1738658766404,293,GET USER PROFILE,200,OK,USERS 1-3,text,true,,861,505,7,7,https://thinking-tester-contact-list.herokuapp.com/users/me,293,0,0
-1738658766586,309,USERS_TR_GETUSERPROFILE - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,861,505,7,7,null,0,2,0
-1738658766588,309,GET USER PROFILE,200,OK,USERS 1-4,text,true,,861,505,7,7,https://thinking-tester-contact-list.herokuapp.com/users/me,309,0,0
-1738658765507,1512,GET AUTH,200,OK,USERS 1-5,text,true,,1258,291,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,1512,0,951
-1738658766586,428,USERS_TR_LOGINUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,1259,457,8,8,null,0,5,0
-1738658766591,428,LOGIN,200,OK,USERS 1-2,text,true,,1259,457,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,428,0,0
-1738658766698,323,USERS_TR_UPDATEUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,861,739,8,8,null,0,0,0
-1738658766698,323,UPDATE USER,200,OK,USERS 1-3,text,true,,861,739,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,323,0,0
-1738658766007,1200,GET AUTH,200,OK,USERS 1-6,text,true,,1258,291,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,1200,0,880
-1738658766586,332,USERS_TR_LOGOUTUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,655,593,8,8,null,0,300,0
-1738658766886,332,LOGOUT USER,200,OK,USERS 1-1,,true,,655,593,8,8,https://thinking-tester-contact-list.herokuapp.com/users/logout,332,0,0
-1738658766897,327,USERS_TR_UPDATEUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,862,740,8,8,null,0,0,0
-1738658766897,327,UPDATE USER,200,OK,USERS 1-4,text,true,,862,740,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,327,0,0
-1738658767021,370,USERS_TR_LOGINUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,1260,457,8,8,null,0,3,0
-1738658767023,370,LOGIN,200,OK,USERS 1-3,text,true,,1260,457,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,370,0,0
-1738658767019,374,USERS_TR_ADDUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,1265,511,8,8,null,0,1,0
-1738658767019,374,ADD USER,201,Created,USERS 1-5,text,true,,1265,511,8,8,https://thinking-tester-contact-list.herokuapp.com/users,374,0,0
-1738658767219,303,USERS_TR_DELETEUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-1,,true,,655,642,9,9,null,0,0,0
-1738658767219,303,DELETE USER,200,OK,USERS 1-1,,true,,655,642,9,9,https://thinking-tester-contact-list.herokuapp.com/users/me,303,0,0
-1738658767208,339,USERS_TR_ADDUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,1263,509,8,8,null,0,0,0
-1738658767208,339,ADD USER,201,Created,USERS 1-6,text,true,,1263,509,8,8,https://thinking-tester-contact-list.herokuapp.com/users,339,0,0
-1738658767224,427,USERS_TR_LOGINUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,1259,457,8,8,null,0,4,0
-1738658767228,427,LOGIN,200,OK,USERS 1-4,text,true,,1259,457,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,427,0,0
-1738658767019,339,USERS_TR_LOGOUTUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,655,593,8,8,null,0,300,0
-1738658767319,339,LOGOUT USER,200,OK,USERS 1-2,,true,,655,593,8,8,https://thinking-tester-contact-list.herokuapp.com/users/logout,339,0,0
-1738658767394,394,USERS_TR_GETUSERPROFILE - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,861,505,8,8,null,0,0,0
-1738658767394,394,GET USER PROFILE,200,OK,USERS 1-5,text,true,,861,505,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,394,0,0
-1738658766507,1281,GET AUTH,200,OK,USERS 1-7,text,true,,1263,291,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,1280,0,922
-1738658767547,373,USERS_TR_GETUSERPROFILE - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,863,505,8,8,null,0,1,0
-1738658767547,373,GET USER PROFILE,200,OK,USERS 1-6,text,true,,863,505,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,373,0,0
-1738658767658,313,USERS_TR_DELETEUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-2,,true,,659,642,8,8,null,0,0,0
-1738658767658,313,DELETE USER,200,OK,USERS 1-2,,true,,659,642,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,313,0,0
-1738658767788,341,USERS_TR_UPDATEUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,866,740,8,8,null,0,0,0
-1738658767394,435,USERS_TR_LOGOUTUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,659,593,8,8,null,0,300,0
-1738658767788,341,UPDATE USER,200,OK,USERS 1-5,text,true,,866,740,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,341,0,0
-1738658767694,435,LOGOUT USER,200,OK,USERS 1-3,,true,,659,593,8,8,https://thinking-tester-contact-list.herokuapp.com/users/logout,435,0,0
-1738658767788,376,USERS_TR_ADDUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,1269,511,8,8,null,0,1,0
-1738658767788,376,ADD USER,201,Created,USERS 1-7,text,true,,1269,511,8,8,https://thinking-tester-contact-list.herokuapp.com/users,376,0,0
-1738658767008,1235,GET AUTH,200,OK,USERS 1-8,text,true,,1264,292,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,1235,0,914
-1738658767921,325,USERS_TR_UPDATEUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,866,740,8,8,null,0,0,0
-1738658767921,325,UPDATE USER,200,OK,USERS 1-6,text,true,,866,740,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,325,0,0
-1738658767655,304,USERS_TR_LOGOUTUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,659,593,8,8,null,0,299,0
-1738658767954,304,LOGOUT USER,200,OK,USERS 1-4,,true,,659,593,8,8,https://thinking-tester-contact-list.herokuapp.com/users/logout,304,0,0
-1738658768129,413,USERS_TR_DELETEUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-3,,true,,659,642,8,8,null,0,0,0
-1738658768129,413,DELETE USER,200,OK,USERS 1-3,,true,,659,642,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,413,0,0
-1738658768165,377,USERS_TR_GETUSERPROFILE - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,865,505,8,8,null,0,0,0
-1738658768165,377,GET USER PROFILE,200,OK,USERS 1-7,text,true,,865,505,8,8,https://thinking-tester-contact-list.herokuapp.com/users/me,377,0,0
-1738658768129,410,USERS_TR_LOGINUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,1264,457,8,8,null,0,3,0
-1738658768132,410,LOGIN,200,OK,USERS 1-5,text,true,,1264,457,8,8,https://thinking-tester-contact-list.herokuapp.com/users/login,410,0,0
-1738658768258,294,USERS_TR_DELETEUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-4,,true,,659,642,7,7,null,0,1,0
-1738658768259,294,DELETE USER,200,OK,USERS 1-4,,true,,659,642,7,7,https://thinking-tester-contact-list.herokuapp.com/users/me,294,0,0
-1738658768246,342,USERS_TR_LOGINUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,1262,457,6,6,null,0,4,0
-1738658768250,342,LOGIN,200,OK,USERS 1-6,text,true,,1262,457,6,6,https://thinking-tester-contact-list.herokuapp.com/users/login,342,0,0
-1738658768243,348,USERS_TR_ADDUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,1269,511,6,6,null,0,2,0
-1738658768244,348,ADD USER,201,Created,USERS 1-8,text,true,,1269,511,6,6,https://thinking-tester-contact-list.herokuapp.com/users,348,0,0
-1738658767507,1210,GET AUTH,200,OK,USERS 1-9,text,true,,1264,292,6,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1210,0,881
-1738658768542,321,USERS_TR_UPDATEUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,866,740,6,6,null,0,0,0
-1738658768542,321,UPDATE USER,200,OK,USERS 1-7,text,true,,866,740,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,320,0,0
-1738658768593,333,USERS_TR_GETUSERPROFILE - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,865,505,6,6,null,0,0,0
-1738658768593,333,GET USER PROFILE,200,OK,USERS 1-8,text,true,,865,505,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,333,0,0
-1738658768718,390,USERS_TR_ADDUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,1269,511,6,6,null,0,0,0
-1738658768718,390,ADD USER,201,Created,USERS 1-9,text,true,,1269,511,6,6,https://thinking-tester-contact-list.herokuapp.com/users,390,0,0
-1738658768542,315,USERS_TR_LOGOUTUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,659,593,6,6,null,0,311,0
-1738658768853,315,LOGOUT USER,200,OK,USERS 1-5,,true,,659,593,6,6,https://thinking-tester-contact-list.herokuapp.com/users/logout,315,0,0
-1738658768926,361,USERS_TR_UPDATEUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,866,740,6,6,null,0,1,0
-1738658768927,361,UPDATE USER,200,OK,USERS 1-8,text,true,,866,740,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,361,0,0
-1738658768593,388,USERS_TR_LOGOUTUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,659,593,6,6,null,0,307,0
-1738658768900,388,LOGOUT USER,200,OK,USERS 1-6,,true,,659,593,6,6,https://thinking-tester-contact-list.herokuapp.com/users/logout,388,0,0
-1738658768863,424,USERS_TR_LOGINUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,1263,457,6,6,null,0,1,0
-1738658768864,424,LOGIN,200,OK,USERS 1-7,text,true,,1263,457,6,6,https://thinking-tester-contact-list.herokuapp.com/users/login,424,0,0
-1738658768007,1281,GET AUTH,200,OK,USERS 1-10,text,true,,1264,292,6,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1281,0,931
-1738658769108,300,USERS_TR_GETUSERPROFILE - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,865,505,6,6,null,0,2,0
-1738658769109,300,GET USER PROFILE,200,OK,USERS 1-9,text,true,,865,505,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,300,0,0
-1738658769168,303,USERS_TR_DELETEUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-5,,true,,659,642,6,6,null,0,0,0
-1738658769168,303,DELETE USER,200,OK,USERS 1-5,,true,,659,642,6,6,https://thinking-tester-contact-list.herokuapp.com/users/me,303,0,0
-1738658769288,323,USERS_TR_DELETEUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-6,,true,,659,642,5,5,null,0,0,0
-1738658769288,323,DELETE USER,200,OK,USERS 1-6,,true,,659,642,5,5,https://thinking-tester-contact-list.herokuapp.com/users/me,323,0,0
-1738658769288,326,USERS_TR_LOGINUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,1263,457,4,4,null,0,4,0
-1738658769290,327,USERS_TR_ADDUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,1270,512,4,4,null,0,1,0
-1738658769291,327,ADD USER,201,Created,USERS 1-10,text,true,,1270,512,4,4,https://thinking-tester-contact-list.herokuapp.com/users,327,0,0
-1738658769292,326,LOGIN,200,OK,USERS 1-8,text,true,,1263,457,4,4,https://thinking-tester-contact-list.herokuapp.com/users/login,326,0,0
-1738658769410,326,USERS_TR_UPDATEUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,870,740,4,4,null,0,0,0
-1738658769410,326,UPDATE USER,200,OK,USERS 1-9,text,true,,870,740,4,4,https://thinking-tester-contact-list.herokuapp.com/users/me,326,0,0
-1738658769618,393,USERS_TR_GETUSERPROFILE - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,870,505,4,4,null,0,0,0
-1738658769618,393,GET USER PROFILE,200,OK,USERS 1-10,text,true,,870,505,4,4,https://thinking-tester-contact-list.herokuapp.com/users/me,393,0,0
-1738658769288,421,USERS_TR_LOGOUTUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,663,593,4,4,null,0,302,0
-1738658769590,421,LOGOUT USER,200,OK,USERS 1-7,,true,,663,593,4,4,https://thinking-tester-contact-list.herokuapp.com/users/logout,421,0,0
-1738658769736,330,USERS_TR_LOGINUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,1267,457,4,4,null,0,3,0
-1738658769739,330,LOGIN,200,OK,USERS 1-9,text,true,,1267,457,4,4,https://thinking-tester-contact-list.herokuapp.com/users/login,330,0,0
-1738658770014,325,USERS_TR_DELETEUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-7,,true,,663,642,4,4,null,0,0,0
-1738658769618,434,USERS_TR_LOGOUTUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,663,593,4,4,null,0,287,0
-1738658770014,325,DELETE USER,200,OK,USERS 1-7,,true,,663,642,4,4,https://thinking-tester-contact-list.herokuapp.com/users/me,325,0,0
-1738658769905,434,LOGOUT USER,200,OK,USERS 1-8,,true,,663,593,4,4,https://thinking-tester-contact-list.herokuapp.com/users/logout,434,0,0
-1738658770012,338,USERS_TR_UPDATEUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,871,741,3,3,null,0,0,0
-1738658770012,338,UPDATE USER,200,OK,USERS 1-10,text,true,,871,741,3,3,https://thinking-tester-contact-list.herokuapp.com/users/me,338,0,0
-1738658770070,391,USERS_TR_LOGOUTUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,663,593,3,3,null,0,307,0
-1738658770377,391,LOGOUT USER,200,OK,USERS 1-9,,true,,663,593,3,3,https://thinking-tester-contact-list.herokuapp.com/users/logout,391,0,0
-1738658770350,415,USERS_TR_LOGINUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,1266,456,3,3,null,0,3,0
-1738658770353,415,LOGIN,200,OK,USERS 1-10,text,true,,1266,456,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,415,0,0
-1738658770339,429,USERS_TR_DELETEUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-8,,true,,663,642,3,3,null,0,0,0
-1738658770339,429,DELETE USER,200,OK,USERS 1-8,,true,,663,642,3,3,https://thinking-tester-contact-list.herokuapp.com/users/me,429,0,0
-1738658770768,321,USERS_TR_DELETEUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-9,,true,,655,642,2,2,null,0,0,0
-1738658770768,321,DELETE USER,200,OK,USERS 1-9,,true,,655,642,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,321,0,0
-1738658770768,329,USERS_TR_LOGOUTUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,655,593,1,1,null,0,300,0
-1738658771068,329,LOGOUT USER,200,OK,USERS 1-10,,true,,655,593,1,1,https://thinking-tester-contact-list.herokuapp.com/users/logout,329,0,0
-1738658771397,291,USERS_TR_DELETEUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 1-10,,true,,655,642,1,1,null,0,0,0
-1738658771397,291,DELETE USER,200,OK,USERS 1-10,,true,,655,642,1,1,https://thinking-tester-contact-list.herokuapp.com/users/me,291,0,0
+1738673581272,1054,USERS_TR_ADDUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,1272,345,3,4,null,0,2,760
+1738673581273,1054,ADD USER,201,Created,USERS 3-1,text,true,,1272,345,3,4,https://thinking-tester-contact-list.herokuapp.com/users,1054,0,760
+1738673581266,1158,GET AUTH,200,OK,AUTH 1-1,text,true,,1266,291,1,4,https://thinking-tester-contact-list.herokuapp.com/users/login,1158,0,767
+1738673582327,259,USERS_TR_GETUSERPROFILE - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,872,505,3,3,null,0,0,0
+1738673582327,259,GET USER PROFILE,200,OK,USERS 3-1,text,true,,872,505,3,3,https://thinking-tester-contact-list.herokuapp.com/users/me,259,0,0
+1738673581774,1040,USERS_TR_ADDUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,1277,346,4,4,null,0,2,744
+1738673581775,1040,ADD USER,201,Created,USERS 3-2,text,true,,1277,346,4,4,https://thinking-tester-contact-list.herokuapp.com/users,1040,0,744
+1738673582586,291,USERS_TR_UPDATEUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,874,740,4,4,null,0,0,0
+1738673582586,291,UPDATE USER,200,OK,USERS 3-1,text,true,,874,740,4,4,https://thinking-tester-contact-list.herokuapp.com/users/me,291,0,0
+1738673582815,257,USERS_TR_GETUSERPROFILE - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,873,505,4,4,null,0,1,0
+1738673582816,257,GET USER PROFILE,200,OK,USERS 3-2,text,true,,873,505,4,4,https://thinking-tester-contact-list.herokuapp.com/users/me,257,0,0
+1738673582877,293,USERS_TR_LOGINUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,1270,456,4,4,null,0,6,0
+1738673582883,293,LOGIN,200,OK,USERS 3-1,text,true,,1270,456,4,4,https://thinking-tester-contact-list.herokuapp.com/users/login,293,0,0
+1738673582273,1035,USERS_TR_ADDUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,1277,346,5,6,null,0,1,743
+1738673582274,1035,ADD USER,201,Created,USERS 3-3,text,true,,1277,346,5,6,https://thinking-tester-contact-list.herokuapp.com/users,1035,0,743
+1738673583073,293,USERS_TR_UPDATEUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,874,740,5,6,null,0,1,0
+1738673583074,293,UPDATE USER,200,OK,USERS 3-2,text,true,,874,740,5,6,https://thinking-tester-contact-list.herokuapp.com/users/me,293,0,0
+1738673583309,257,USERS_TR_GETUSERPROFILE - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,873,505,5,6,null,0,1,0
+1738673583310,257,GET USER PROFILE,200,OK,USERS 3-3,text,true,,873,505,5,6,https://thinking-tester-contact-list.herokuapp.com/users/me,257,0,0
+1738673583367,292,USERS_TR_LOGINUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,1270,456,5,6,null,0,5,0
+1738673583372,292,LOGIN,200,OK,USERS 3-2,text,true,,1270,456,5,6,https://thinking-tester-contact-list.herokuapp.com/users/login,292,0,0
+1738673583176,273,USERS_TR_LOGOUTUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,667,593,5,6,null,0,300,0
+1738673583476,273,LOGOUT USER,200,OK,USERS 3-1,,true,,667,593,5,6,https://thinking-tester-contact-list.herokuapp.com/users/logout,273,0,0
+1738673582766,1029,USERS_TR_ADDUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,1277,346,6,8,null,0,4,737
+1738673582770,1029,ADD USER,201,Created,USERS 3-4,text,true,,1277,346,6,8,https://thinking-tester-contact-list.herokuapp.com/users,1029,0,737
+1738673583567,294,USERS_TR_UPDATEUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,873,739,6,8,null,0,0,0
+1738673583567,294,UPDATE USER,200,OK,USERS 3-3,text,true,,873,739,6,8,https://thinking-tester-contact-list.herokuapp.com/users/me,294,0,0
+1738673583749,271,USERS_TR_DELETEUSER - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-1,,true,,667,642,6,8,null,0,0,0
+1738673583749,271,DELETE USER,200,OK,USERS 3-1,,true,,667,642,6,8,https://thinking-tester-contact-list.herokuapp.com/users/me,271,0,0
+1738673583799,258,USERS_TR_GETUSERPROFILE - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,873,505,5,7,null,0,0,0
+1738673583799,258,GET USER PROFILE,200,OK,USERS 3-4,text,true,,873,505,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,258,0,0
+1738673583861,292,USERS_TR_LOGINUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,1271,456,5,7,null,0,4,0
+1738673583865,292,LOGIN,200,OK,USERS 3-3,text,true,,1271,456,5,7,https://thinking-tester-contact-list.herokuapp.com/users/login,292,0,0
+1738673583664,289,USERS_TR_LOGOUTUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,667,593,5,7,null,0,301,0
+1738673583965,289,LOGOUT USER,200,OK,USERS 3-2,,true,,667,593,5,7,https://thinking-tester-contact-list.herokuapp.com/users/logout,289,0,0
+1738673583267,1030,USERS_TR_ADDUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,1277,346,6,9,null,0,3,719
+1738673583269,1030,ADD USER,201,Created,USERS 3-5,text,true,,1277,346,6,9,https://thinking-tester-contact-list.herokuapp.com/users,1030,0,719
+1738673584057,294,USERS_TR_UPDATEUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,874,740,6,9,null,0,0,0
+1738673584057,294,UPDATE USER,200,OK,USERS 3-4,text,true,,874,740,6,9,https://thinking-tester-contact-list.herokuapp.com/users/me,294,0,0
+1738673584254,281,USERS_TR_DELETEUSER - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-2,,true,,667,642,6,9,null,0,0,0
+1738673584254,281,DELETE USER,200,OK,USERS 3-2,,true,,667,642,6,9,https://thinking-tester-contact-list.herokuapp.com/users/me,281,0,0
+1738673584300,275,USERS_TR_GETUSERPROFILE - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,873,505,5,8,null,0,0,0
+1738673584300,275,GET USER PROFILE,200,OK,USERS 3-5,text,true,,873,505,5,8,https://thinking-tester-contact-list.herokuapp.com/users/me,275,0,0
+1738673584351,305,USERS_TR_LOGINUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,1270,456,5,8,null,0,3,0
+1738673584354,305,LOGIN,200,OK,USERS 3-4,text,true,,1270,456,5,8,https://thinking-tester-contact-list.herokuapp.com/users/login,305,0,0
+1738673584157,271,USERS_TR_LOGOUTUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,667,593,5,8,null,0,301,0
+1738673584457,271,LOGOUT USER,200,OK,USERS 3-3,,true,,667,593,5,8,https://thinking-tester-contact-list.herokuapp.com/users/logout,271,0,0
+1738673583769,1017,USERS_TR_ADDUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,1277,346,6,10,null,0,0,723
+1738673583769,1017,ADD USER,201,Created,USERS 3-6,text,true,,1277,346,6,10,https://thinking-tester-contact-list.herokuapp.com/users,1017,0,723
+1738673583261,1579,CONTACTS_TR_ADDCONTACT - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,1102,735,4,10,null,0,1,727
+1738673583261,1579,ADD CONTACT,201,Created,CONTACTS 2-1,text,true,,1102,735,4,10,https://thinking-tester-contact-list.herokuapp.com/contacts,1579,0,727
+1738673584575,327,USERS_TR_UPDATEUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,874,740,6,10,null,0,0,0
+1738673584575,327,UPDATE USER,200,OK,USERS 3-5,text,true,,874,740,6,10,https://thinking-tester-contact-list.herokuapp.com/users/me,327,0,0
+1738673584729,271,USERS_TR_DELETEUSER - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-3,,true,,667,642,6,10,null,0,1,0
+1738673584729,271,DELETE USER,200,OK,USERS 3-3,,true,,667,642,6,10,https://thinking-tester-contact-list.herokuapp.com/users/me,271,0,0
+1738673584787,260,USERS_TR_GETUSERPROFILE - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,873,505,5,9,null,0,0,0
+1738673584787,260,GET USER PROFILE,200,OK,USERS 3-6,text,true,,873,505,5,9,https://thinking-tester-contact-list.herokuapp.com/users/me,260,0,0
+1738673584659,281,USERS_TR_LOGOUTUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,667,593,5,9,null,0,301,0
+1738673584959,281,LOGOUT USER,200,OK,USERS 3-4,,true,,667,593,5,9,https://thinking-tester-contact-list.herokuapp.com/users/logout,281,0,0
+1738673583762,1570,CONTACTS_TR_ADDCONTACT - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,1102,735,5,11,null,0,1,727
+1738673583763,1570,ADD CONTACT,201,Created,CONTACTS 2-2,text,true,,1102,735,5,11,https://thinking-tester-contact-list.herokuapp.com/contacts,1570,0,727
+1738673585047,304,USERS_TR_UPDATEUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,874,740,6,11,null,0,0,0
+1738673585047,304,UPDATE USER,200,OK,USERS 3-6,text,true,,874,740,6,11,https://thinking-tester-contact-list.herokuapp.com/users/me,304,0,0
+1738673584267,1125,USERS_TR_ADDUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,1277,346,6,11,null,0,1,798
+1738673584268,1125,ADD USER,201,Created,USERS 3-7,text,true,,1277,346,6,11,https://thinking-tester-contact-list.herokuapp.com/users,1125,0,798
+1738673585241,275,USERS_TR_DELETEUSER - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-4,,true,,663,642,6,11,null,0,0,0
+1738673585241,275,DELETE USER,200,OK,USERS 3-4,,true,,663,642,6,11,https://thinking-tester-contact-list.herokuapp.com/users/me,275,0,0
+1738673585351,298,USERS_TR_LOGINUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,1266,456,5,10,null,0,4,0
+1738673585355,298,LOGIN,200,OK,USERS 3-6,text,true,,1266,456,5,10,https://thinking-tester-contact-list.herokuapp.com/users/login,298,0,0
+1738673584841,863,CONTACTS_TR_GETCONTACTSLIST - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,3977,340,5,10,null,0,0,0
+1738673584841,863,GET CONTACTS LIST,200,OK,CONTACTS 2-1,text,true,,3977,340,5,10,https://thinking-tester-contact-list.herokuapp.com/contacts,863,0,0
+1738673584902,866,USERS_TR_LOGINUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,1270,456,6,12,null,0,5,0
+1738673584906,866,LOGIN,200,OK,USERS 3-5,text,true,,1270,456,6,12,https://thinking-tester-contact-list.herokuapp.com/users/login,866,0,0
+1738673584261,1601,CONTACTS_TR_ADDCONTACT - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,1102,735,6,12,null,0,2,759
+1738673584262,1601,ADD CONTACT,201,Created,CONTACTS 2-3,text,true,,1102,735,6,12,https://thinking-tester-contact-list.herokuapp.com/contacts,1601,0,759
+1738673585654,271,USERS_TR_LOGOUTUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,663,593,6,12,null,0,301,0
+1738673585955,271,LOGOUT USER,200,OK,USERS 3-6,,true,,663,593,6,12,https://thinking-tester-contact-list.herokuapp.com/users/logout,271,0,0
+1738673585393,935,USERS_TR_GETUSERPROFILE - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,869,505,6,13,null,0,1,0
+1738673585394,935,GET USER PROFILE,200,OK,USERS 3-7,text,true,,869,505,6,13,https://thinking-tester-contact-list.herokuapp.com/users/me,935,0,0
+1738673585773,306,USERS_TR_LOGOUTUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,663,593,6,13,null,0,300,0
+1738673586073,306,LOGOUT USER,200,OK,USERS 3-5,,true,,663,593,6,13,https://thinking-tester-contact-list.herokuapp.com/users/logout,306,0,0
+1738673584768,1671,USERS_TR_ADDUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,1273,346,6,13,null,0,2,1376
+1738673584769,1671,ADD USER,201,Created,USERS 3-8,text,true,,1273,346,6,13,https://thinking-tester-contact-list.herokuapp.com/users,1671,0,1376
+1738673586226,274,USERS_TR_DELETEUSER - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-6,,true,,663,642,6,13,null,0,2,0
+1738673586227,274,DELETE USER,200,OK,USERS 3-6,,true,,663,642,6,13,https://thinking-tester-contact-list.herokuapp.com/users/me,274,0,0
+1738673585704,828,CONTACTS_TR_GETCONTACTS - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,1093,365,7,12,null,0,2,0
+1738673585705,828,GET CONTACTS,200,OK,CONTACTS 2-1,text,true,,1093,365,7,12,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0ad458a00134b2928,828,0,0
+1738673586330,296,USERS_TR_UPDATEUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,870,740,5,12,null,0,0,0
+1738673586330,296,UPDATE USER,200,OK,USERS 3-7,text,true,,870,740,5,12,https://thinking-tester-contact-list.herokuapp.com/users/me,296,0,0
+1738673586380,278,USERS_TR_DELETEUSER - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-5,,true,,663,642,5,12,null,0,0,0
+1738673586380,278,DELETE USER,200,OK,USERS 3-5,,true,,663,642,5,12,https://thinking-tester-contact-list.herokuapp.com/users/me,278,0,0
+1738673586441,260,USERS_TR_GETUSERPROFILE - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,869,505,4,11,null,0,0,0
+1738673586441,260,GET USER PROFILE,200,OK,USERS 3-8,text,true,,869,505,4,11,https://thinking-tester-contact-list.herokuapp.com/users/me,260,0,0
+1738673585772,1130,USERS_TR_ADDUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,1274,347,4,12,null,0,3,804
+1738673585774,1130,ADD USER,201,Created,USERS 3-10,text,true,,1274,347,4,12,https://thinking-tester-contact-list.herokuapp.com/users,1130,0,804
+1738673586626,294,USERS_TR_LOGINUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,1267,456,4,12,null,0,5,0
+1738673586630,294,LOGIN,200,OK,USERS 3-7,text,true,,1267,456,4,12,https://thinking-tester-contact-list.herokuapp.com/users/login,294,0,0
+1738673586701,300,USERS_TR_UPDATEUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,870,740,4,12,null,0,1,0
+1738673586702,300,UPDATE USER,200,OK,USERS 3-8,text,true,,870,740,4,12,https://thinking-tester-contact-list.herokuapp.com/users/me,300,0,0
+1738673585268,1733,USERS_TR_ADDUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,1273,346,4,12,null,0,2,738
+1738673585269,1733,ADD USER,201,Created,USERS 3-9,text,true,,1273,346,4,12,https://thinking-tester-contact-list.herokuapp.com/users,1733,0,738
+1738673584762,2268,CONTACTS_TR_ADDCONTACT - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,1097,734,8,12,null,0,2,736
+1738673584763,2268,ADD CONTACT,201,Created,CONTACTS 2-4,text,true,,1097,734,8,12,https://thinking-tester-contact-list.herokuapp.com/contacts,2268,0,736
+1738673585333,1735,CONTACTS_TR_GETCONTACTSLIST - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,4312,340,8,12,null,0,1,0
+1738673585333,1735,GET CONTACTS LIST,200,OK,CONTACTS 2-2,text,true,,4312,340,8,12,https://thinking-tester-contact-list.herokuapp.com/contacts,1735,0,0
+1738673586905,263,USERS_TR_GETUSERPROFILE - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,870,505,4,12,null,0,0,0
+1738673586905,263,GET USER PROFILE,200,OK,USERS 3-10,text,true,,870,505,4,12,https://thinking-tester-contact-list.herokuapp.com/users/me,263,0,0
+1738673587003,291,USERS_TR_GETUSERPROFILE - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,869,505,4,13,null,0,2,0
+1738673587002,288,USERS_TR_LOGINUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,1267,457,4,13,null,0,6,0
+1738673587004,291,GET USER PROFILE,200,OK,USERS 3-9,text,true,,869,505,4,13,https://thinking-tester-contact-list.herokuapp.com/users/me,291,0,0
+1738673587007,288,LOGIN,200,OK,USERS 3-8,text,true,,1267,457,4,13,https://thinking-tester-contact-list.herokuapp.com/users/login,288,0,0
+1738673585864,1467,CONTACTS_TR_GETCONTACTSLIST - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,4650,340,9,13,null,0,0,0
+1738673585864,1467,GET CONTACTS LIST,200,OK,CONTACTS 2-3,text,true,,4650,340,9,13,https://thinking-tester-contact-list.herokuapp.com/contacts,1466,0,0
+1738673586534,838,CONTACTS_TR_UPDATECONTACT - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,1093,811,9,13,null,0,0,0
+1738673586534,838,UPDATE CONTACT,200,OK,CONTACTS 2-1,text,true,,1093,811,9,13,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0ad458a00134b2928,838,0,0
+1738673585762,1626,CONTACTS_TR_ADDCONTACT - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,1098,735,9,13,null,0,1,794
+1738673585763,1626,ADD CONTACT,201,Created,CONTACTS 2-6,text,true,,1098,735,9,13,https://thinking-tester-contact-list.herokuapp.com/contacts,1626,0,794
+1738673586925,324,USERS_TR_LOGOUTUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,655,593,4,13,null,0,301,0
+1738673587169,380,USERS_TR_UPDATEUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,863,741,4,13,null,0,2,0
+1738673587226,324,LOGOUT USER,200,OK,USERS 3-7,,true,,655,593,4,13,https://thinking-tester-contact-list.herokuapp.com/users/logout,324,0,0
+1738673587170,380,UPDATE USER,200,OK,USERS 3-10,text,true,,863,741,4,13,https://thinking-tester-contact-list.herokuapp.com/users/me,380,0,0
+1738673587297,355,USERS_TR_UPDATEUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,862,740,4,13,null,0,0,0
+1738673587297,355,UPDATE USER,200,OK,USERS 3-9,text,true,,862,740,4,13,https://thinking-tester-contact-list.herokuapp.com/users/me,355,0,0
+1738673585261,2389,CONTACTS_TR_ADDCONTACT - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,1098,735,9,13,null,0,2,752
+1738673585262,2389,ADD CONTACT,201,Created,CONTACTS 2-5,text,true,,1098,735,9,13,https://thinking-tester-contact-list.herokuapp.com/contacts,2389,0,752
+1738673587551,409,USERS_TR_DELETEUSER - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-7,,true,,655,642,4,14,null,0,0,0
+1738673587551,409,DELETE USER,200,OK,USERS 3-7,,true,,655,642,4,14,https://thinking-tester-contact-list.herokuapp.com/users/me,409,0,0
+1738673587297,363,USERS_TR_LOGOUTUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,655,593,4,14,null,0,301,0
+1738673587597,363,LOGOUT USER,200,OK,USERS 3-8,,true,,655,593,4,14,https://thinking-tester-contact-list.herokuapp.com/users/logout,363,0,0
+1738673587551,404,USERS_TR_LOGINUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,1260,457,4,14,null,0,6,0
+1738673587556,404,LOGIN,200,OK,USERS 3-10,text,true,,1260,457,4,14,https://thinking-tester-contact-list.herokuapp.com/users/login,404,0,0
+1738673587033,929,CONTACTS_TR_GETCONTACTSLIST - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,5329,340,10,13,null,0,0,0
+1738673587070,892,CONTACTS_TR_GETCONTACTS - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,1093,365,10,13,null,0,0,0
+1738673587033,929,GET CONTACTS LIST,200,OK,CONTACTS 2-4,text,true,,5329,340,10,13,https://thinking-tester-contact-list.herokuapp.com/contacts,929,0,0
+1738673587070,892,GET CONTACTS,200,OK,CONTACTS 2-2,text,true,,1093,365,10,13,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0e0f4720013abc497,892,0,0
+1738673586261,1699,CONTACTS_TR_ADDCONTACT - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,1098,735,10,13,null,0,2,802
+1738673586262,1699,ADD CONTACT,201,Created,CONTACTS 2-7,text,true,,1098,735,10,13,https://thinking-tester-contact-list.herokuapp.com/contacts,1699,0,802
+1738673587652,508,USERS_TR_LOGINUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,1260,457,3,13,null,0,6,0
+1738673587658,508,LOGIN,200,OK,USERS 3-9,text,true,,1260,457,3,13,https://thinking-tester-contact-list.herokuapp.com/users/login,508,0,0
+1738673587332,863,CONTACTS_TR_GETCONTACTS - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,1085,365,10,13,null,0,0,0
+1738673587332,863,GET CONTACTS,200,OK,CONTACTS 2-3,text,true,,1085,365,10,13,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc498,863,0,0
+1738673587374,842,CONTACTS_TR_UPDATECONTACT - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,1085,512,10,13,null,0,0,0
+1738673587374,842,UPDATE CONTACT,200,OK,CONTACTS 2-1,text,true,,1085,512,10,13,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0ad458a00134b2928,842,0,0
+1738673587961,277,USERS_TR_DELETEUSER - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-8,,true,,655,642,3,13,null,0,0,0
+1738673587961,277,DELETE USER,200,OK,USERS 3-8,,true,,655,642,3,13,https://thinking-tester-contact-list.herokuapp.com/users/me,277,0,0
+1738673587390,995,CONTACTS_TR_GETCONTACTSLIST - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,5660,340,10,12,null,0,1,0
+1738673587391,995,GET CONTACTS LIST,200,OK,CONTACTS 2-6,text,true,,5660,340,10,12,https://thinking-tester-contact-list.herokuapp.com/contacts,995,0,0
+1738673587961,286,USERS_TR_LOGOUTUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,655,593,2,12,null,0,294,0
+1738673588255,286,LOGOUT USER,200,OK,USERS 3-10,,true,,655,593,2,12,https://thinking-tester-contact-list.herokuapp.com/users/logout,286,0,0
+1738673588167,307,USERS_TR_LOGOUTUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,655,593,2,12,null,0,308,0
+1738673588474,307,LOGOUT USER,200,OK,USERS 3-9,,true,,655,593,2,12,https://thinking-tester-contact-list.herokuapp.com/users/logout,307,0,0
+1738673588542,274,USERS_TR_DELETEUSER - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-10,,true,,655,642,2,12,null,0,0,0
+1738673588542,274,DELETE USER,200,OK,USERS 3-10,,true,,655,642,2,12,https://thinking-tester-contact-list.herokuapp.com/users/me,274,0,0
+1738673587962,882,CONTACTS_TR_UPDATECONTACT - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,1084,810,10,11,null,0,1,0
+1738673587963,882,UPDATE CONTACT,200,OK,CONTACTS 2-2,text,true,,1084,810,10,11,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0e0f4720013abc497,882,0,0
+1738673587963,886,CONTACTS_TR_GETCONTACTSLIST - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,5660,340,10,11,null,0,1,0
+1738673587963,886,GET CONTACTS LIST,200,OK,CONTACTS 2-7,text,true,,5660,340,10,11,https://thinking-tester-contact-list.herokuapp.com/contacts,886,0,0
+1738673588216,835,CONTACTS_TR_DELETECONTACT - 1,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-1,,true,,752,503,10,11,null,0,0,0
+1738673588216,835,DELETE CONTACT,200,OK,CONTACTS 2-1,text,true,,752,503,10,11,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0ad458a00134b2928,835,0,0
+1738673588195,873,CONTACTS_TR_UPDATECONTACT - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,1085,811,9,10,null,0,1,0
+1738673588195,873,UPDATE CONTACT,200,OK,CONTACTS 2-3,text,true,,1085,811,9,10,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc498,873,0,0
+1738673587262,1812,CONTACTS_TR_ADDCONTACT - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,1090,735,9,10,null,0,1,968
+1738673587263,1812,ADD CONTACT,201,Created,CONTACTS 2-9,text,true,,1090,735,9,10,https://thinking-tester-contact-list.herokuapp.com/contacts,1812,0,968
+1738673588782,304,USERS_TR_DELETEUSER - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",USERS 3-9,,true,,655,642,1,10,null,0,0,0
+1738673588782,304,DELETE USER,200,OK,USERS 3-9,,true,,655,642,1,10,https://thinking-tester-contact-list.herokuapp.com/users/me,304,0,0
+1738673588386,846,CONTACTS_TR_GETCONTACTS - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,1085,365,9,9,null,0,0,0
+1738673588386,846,GET CONTACTS,200,OK,CONTACTS 2-6,text,true,,1085,365,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49b,846,0,0
+1738673587962,1471,CONTACTS_TR_GETCONTACTS - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,1084,365,9,9,null,0,0,0
+1738673587962,1471,GET CONTACTS,200,OK,CONTACTS 2-4,text,true,,1084,365,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc499,1471,0,0
+1738673587653,1894,CONTACTS_TR_GETCONTACTSLIST - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,5660,340,9,9,null,0,3,0
+1738673587655,1894,GET CONTACTS LIST,200,OK,CONTACTS 2-5,text,true,,5660,340,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts,1894,0,0
+1738673588850,833,CONTACTS_TR_GETCONTACTS - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,1085,365,9,9,null,0,0,0
+1738673588850,833,GET CONTACTS,200,OK,CONTACTS 2-7,text,true,,1085,365,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49d,833,0,0
+1738673588845,876,CONTACTS_TR_UPDATECONTACT - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,1084,512,9,9,null,0,0,0
+1738673588845,876,UPDATE CONTACT,200,OK,CONTACTS 2-2,text,true,,1084,512,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0e0f4720013abc497,876,0,0
+1738673586761,3162,CONTACTS_TR_ADDCONTACT - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,1090,735,9,9,null,0,2,2298
+1738673586762,3162,ADD CONTACT,201,Created,CONTACTS 2-8,text,true,,1090,735,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts,3162,0,2298
+1738673589069,878,CONTACTS_TR_UPDATECONTACT - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,1085,512,9,9,null,0,0,0
+1738673589069,878,UPDATE CONTACT,200,OK,CONTACTS 2-3,text,true,,1085,512,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc498,878,0,0
+1738673589075,895,CONTACTS_TR_GETCONTACTSLIST - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,5998,340,9,9,null,0,1,0
+1738673589076,895,GET CONTACTS LIST,200,OK,CONTACTS 2-9,text,true,,5998,340,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts,895,0,0
+1738673589232,834,CONTACTS_TR_UPDATECONTACT - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,1089,811,9,9,null,0,0,0
+1738673589232,834,UPDATE CONTACT,200,OK,CONTACTS 2-6,text,true,,1089,811,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49b,834,0,0
+1738673589433,863,CONTACTS_TR_UPDATECONTACT - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,1089,811,9,9,null,0,1,0
+1738673589433,863,UPDATE CONTACT,200,OK,CONTACTS 2-4,text,true,,1089,811,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc499,863,0,0
+1738673589550,863,CONTACTS_TR_GETCONTACTS - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,1089,365,9,9,null,0,0,0
+1738673589550,863,GET CONTACTS,200,OK,CONTACTS 2-5,text,true,,1089,365,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db2ad458a00134b2932,863,0,0
+1738673589683,836,CONTACTS_TR_UPDATECONTACT - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,1089,811,9,9,null,0,1,0
+1738673589684,836,UPDATE CONTACT,200,OK,CONTACTS 2-7,text,true,,1089,811,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49d,836,0,0
+1738673589722,859,CONTACTS_TR_DELETECONTACT - 2,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-2,,true,,756,503,9,9,null,0,0,0
+1738673589722,859,DELETE CONTACT,200,OK,CONTACTS 2-2,text,true,,756,503,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db0e0f4720013abc497,859,0,0
+1738673589973,835,CONTACTS_TR_GETCONTACTS - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,1089,365,8,8,null,0,1,0
+1738673589974,835,GET CONTACTS,200,OK,CONTACTS 2-9,text,true,,1089,365,8,8,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db4ad458a00134b2937,835,0,0
+1738673589947,865,CONTACTS_TR_DELETECONTACT - 3,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-3,,true,,756,503,8,8,null,0,1,0
+1738673589948,865,DELETE CONTACT,200,OK,CONTACTS 2-3,text,true,,756,503,8,8,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc498,865,0,0
+1738673590066,841,CONTACTS_TR_UPDATECONTACT - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,1089,512,7,7,null,0,0,0
+1738673590066,841,UPDATE CONTACT,200,OK,CONTACTS 2-6,text,true,,1089,512,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49b,841,0,0
+1738673590297,892,CONTACTS_TR_UPDATECONTACT - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,1085,512,7,7,null,0,0,0
+1738673590297,892,UPDATE CONTACT,200,OK,CONTACTS 2-4,text,true,,1085,512,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc499,892,0,0
+1738673587762,3508,CONTACTS_TR_ADDCONTACT - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,1090,735,7,7,null,0,1,2619
+1738673587763,3508,ADD CONTACT,201,Created,CONTACTS 2-10,text,true,,1090,735,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts,3508,0,2619
+1738673590520,849,CONTACTS_TR_UPDATECONTACT - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,1085,512,7,7,null,0,0,0
+1738673590520,849,UPDATE CONTACT,200,OK,CONTACTS 2-7,text,true,,1085,512,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49d,849,0,0
+1738673590809,852,CONTACTS_TR_UPDATECONTACT - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,1085,811,7,7,null,0,0,0
+1738673590809,852,UPDATE CONTACT,200,OK,CONTACTS 2-9,text,true,,1085,811,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db4ad458a00134b2937,852,0,0
+1738673590907,839,CONTACTS_TR_DELETECONTACT - 6,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-6,,true,,752,503,7,7,null,0,0,0
+1738673590907,839,DELETE CONTACT,200,OK,CONTACTS 2-6,text,true,,752,503,7,7,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49b,839,0,0
+1738673589926,1947,CONTACTS_TR_GETCONTACTSLIST - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,5665,340,6,6,null,0,0,0
+1738673589926,1947,GET CONTACTS LIST,200,OK,CONTACTS 2-8,text,true,,5665,340,6,6,https://thinking-tester-contact-list.herokuapp.com/contacts,1947,0,0
+1738673590413,1504,CONTACTS_TR_UPDATECONTACT - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,1084,810,6,6,null,0,1,0
+1738673590414,1504,UPDATE CONTACT,200,OK,CONTACTS 2-5,text,true,,1084,810,6,6,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db2ad458a00134b2932,1504,0,0
+1738673591189,832,CONTACTS_TR_DELETECONTACT - 4,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-4,,true,,756,503,6,6,null,0,1,0
+1738673591190,832,DELETE CONTACT,200,OK,CONTACTS 2-4,text,true,,756,503,6,6,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db1e0f4720013abc499,832,0,0
+1738673591271,870,CONTACTS_TR_GETCONTACTSLIST - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,4986,340,5,5,null,0,0,0
+1738673591271,870,GET CONTACTS LIST,200,OK,CONTACTS 2-10,text,true,,4986,340,5,5,https://thinking-tester-contact-list.herokuapp.com/contacts,870,0,0
+1738673591369,835,CONTACTS_TR_DELETECONTACT - 7,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-7,,true,,756,503,5,5,null,0,1,0
+1738673591370,835,DELETE CONTACT,200,OK,CONTACTS 2-7,text,true,,756,503,5,5,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db3e0f4720013abc49d,835,0,0
+1738673591661,853,CONTACTS_TR_UPDATECONTACT - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,1089,512,4,4,null,0,1,0
+1738673591662,853,UPDATE CONTACT,200,OK,CONTACTS 2-9,text,true,,1089,512,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db4ad458a00134b2937,853,0,0
+1738673591873,831,CONTACTS_TR_GETCONTACTS - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,1089,365,4,4,null,0,0,0
+1738673591873,831,GET CONTACTS,200,OK,CONTACTS 2-8,text,true,,1089,365,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db5e0f4720013abc4a0,831,0,0
+1738673591918,997,CONTACTS_TR_UPDATECONTACT - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,1088,512,4,4,null,0,0,0
+1738673591918,997,UPDATE CONTACT,200,OK,CONTACTS 2-5,text,true,,1088,512,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db2ad458a00134b2932,997,0,0
+1738673592142,825,CONTACTS_TR_GETCONTACTS - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,1093,365,4,4,null,0,0,0
+1738673592142,825,GET CONTACTS,200,OK,CONTACTS 2-10,text,true,,1093,365,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db6e0f4720013abc4a1,825,0,0
+1738673592516,846,CONTACTS_TR_DELETECONTACT - 9,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-9,,true,,760,503,4,4,null,0,0,0
+1738673592516,846,DELETE CONTACT,200,OK,CONTACTS 2-9,text,true,,760,503,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db4ad458a00134b2937,846,0,0
+1738673592704,838,CONTACTS_TR_UPDATECONTACT - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,1093,811,3,3,null,0,1,0
+1738673592705,838,UPDATE CONTACT,200,OK,CONTACTS 2-8,text,true,,1093,811,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db5e0f4720013abc4a0,838,0,0
+1738673592916,848,CONTACTS_TR_DELETECONTACT - 5,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-5,,true,,760,503,3,3,null,0,0,0
+1738673592916,848,DELETE CONTACT,200,OK,CONTACTS 2-5,text,true,,760,503,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db2ad458a00134b2932,848,0,0
+1738673592968,837,CONTACTS_TR_UPDATECONTACT - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,1093,811,2,2,null,0,0,0
+1738673592968,837,UPDATE CONTACT,200,OK,CONTACTS 2-10,text,true,,1093,811,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db6e0f4720013abc4a1,837,0,0
+1738673593543,970,CONTACTS_TR_UPDATECONTACT - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,1089,512,2,2,null,0,0,0
+1738673593543,970,UPDATE CONTACT,200,OK,CONTACTS 2-8,text,true,,1089,512,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db5e0f4720013abc4a0,969,0,0
+1738673593806,848,CONTACTS_TR_UPDATECONTACT - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,1089,512,2,2,null,0,0,0
+1738673593806,848,UPDATE CONTACT,200,OK,CONTACTS 2-10,text,true,,1089,512,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db6e0f4720013abc4a1,848,0,0
+1738673594513,932,CONTACTS_TR_DELETECONTACT - 8,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-8,,true,,760,503,2,2,null,0,0,0
+1738673594513,932,DELETE CONTACT,200,OK,CONTACTS 2-8,text,true,,760,503,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db5e0f4720013abc4a0,932,0,0
+1738673594654,834,CONTACTS_TR_DELETECONTACT - 10,200,"Number of samples in transaction : 1, number of failing samples : 0",CONTACTS 2-10,,true,,760,503,1,1,null,0,0,0
+1738673594654,834,DELETE CONTACT,200,OK,CONTACTS 2-10,text,true,,760,503,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/67a20db6e0f4720013abc4a1,834,0,0

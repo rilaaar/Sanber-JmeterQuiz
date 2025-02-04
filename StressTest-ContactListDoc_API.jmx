@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="CONTACT-LIST-DOCUMENT-API_LOAD TEST" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="CONTACT-LIST-DOCUMENT-API_STRESS TEST" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -182,8 +182,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">2</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${TEST_DURATION}</stringProp>
         <stringProp name="ThreadGroup.delay">2</stringProp>
@@ -400,7 +400,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -457,7 +457,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -537,7 +537,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -607,7 +607,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -664,7 +664,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -824,8 +824,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">2</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${TEST_DURATION}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -1471,7 +1471,7 @@ vars.put(&quot;password&quot;, randomUser[1]);
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">D:\Ra\Sanbercode\Jmeter - quiz\loadTest-report.jtl</stringProp>
+        <stringProp name="filename">D:\Ra\Sanbercode\Jmeter - quiz\stressTest-report.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">

@@ -162,6 +162,8 @@
             <stringProp name="JSONPostProcessor.referenceNames">token</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.token</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="Sample.scope">all</stringProp>
+            <stringProp name="Scope.variable">tokenAuth</stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Check$.token" enabled="true">
@@ -173,6 +175,17 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
           </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">// Store the extracted variable as a JMeter property
+String token = vars.get(&quot;token&quot;); // Get the variable from JSON Extractor
+props.put(&quot;globalUserToken&quot;, token);  // Store it as a global property
+</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PostProcessor>
           <hashTree/>
         </hashTree>
       </hashTree>
@@ -186,7 +199,7 @@
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${TEST_DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay">2</stringProp>
+        <stringProp name="ThreadGroup.delay">1</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -219,6 +232,11 @@
               <stringProp name="Argument.value">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzlkOTBkN2IxN2E0NDAwMTNiOTg5NjQiLCJpYXQiOjE3Mzg2NjkyMzF9.LCwdLb3Rsly0YaLSMn5qJ88qZEUzEyNwnB1Mh9ny8O0</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
+            <elementProp name="validToken2" elementType="Argument">
+              <stringProp name="Argument.name">validToken2</stringProp>
+              <stringProp name="Argument.value">${tokenAuth}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
@@ -239,7 +257,7 @@
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -357,7 +375,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -400,7 +418,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -414,7 +432,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -457,7 +475,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -471,7 +489,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -537,7 +555,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -551,7 +569,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -607,7 +625,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
@@ -621,7 +639,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer ${validToken}</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(globalUserToken,)}</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -664,7 +682,7 @@
             <doubleProp>
               <name>throughput</name>
               <value>60.0</value>
-              <savedValue>60.0</savedValue>
+              <savedValue>0.0</savedValue>
             </doubleProp>
           </ConstantThroughputTimer>
           <hashTree/>
